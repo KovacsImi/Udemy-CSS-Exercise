@@ -1,0 +1,139 @@
+#product-overview {
+    background:
+            linear-gradient(to bottom, rgba(80, 60, 18, 0.5) 10%, transparent ),
+    url("background.jpg") left 10% bottom 20%/cover no-repeat border-box,
+    red;
+    /*background-position: left bottom;*/
+    /*background-size: cover;*/
+    /*background-origin: border-box;*/
+    /*background-clip: padding-box;*/
+    /*background-attachment: local;*/
+    /*background-image: linear-gradient(180deg,red 40%, blue 40%, black);*/
+    /*background-image: radial-gradient(ellipse farthest-corner at 20% 50%,red, blue);*/
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    margin-top: 42px;
+    position: relative;
+    /*border: 6px dashed red;*/
+}
+
+.section-title {
+    color: #2ddf5c;
+    font-family: inherit;
+    text-align: center;
+}
+
+#product-overview h2 {
+    color: wheat;
+    font-family: 'Protest Revolution', sans-serif;
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+}
+
+.plan__list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan{
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan--highlighted{
+    background: #19b84c;
+    color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    min-width: max-content;
+}
+
+.plan__annotation{
+    background-color: whitesmoke;
+    color: #0e4f1f;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    min-width: max-content;
+    border-radius: 8px;
+}
+
+.plan__title{
+    color: #0e4f1f;
+}
+
+.plan__price{
+    color: #858585;
+}
+
+.plan--highlighted .plan__title{
+    color: whitesmoke;
+}
+
+.plan--highlighted .plan__price{
+    color: #0e4f1f;
+}
+
+.plan__features{
+    text-align: center;
+    list-style: none;
+    padding: 2px;
+}
+
+.plan__feature{
+    margin: 4px;
+}
+
+
+#key--features{
+    background: #ff1b68;
+}
+
+#key--features > .section-title{
+    color: whitesmoke;
+    margin-top: 60px;
+    padding: 24px;
+}
+
+
+
+.key-feature__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.key-feature{
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 24px;
+}
+
+.key-feature__image{
+    background-color: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid black;
+    border-radius: 50%;
+    /*display: inline-block;*/
+    margin: auto;
+    padding: 20px;
+}
+
+.key-feature__description{
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
