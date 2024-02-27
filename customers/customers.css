@@ -1,6 +1,8 @@
 .testimonial {
     font-size: 20px;
     margin: 48px 0;
+    padding: 0 10px;
+    /*display: inline;*/
 }
 
 .testimonial__list {
@@ -13,10 +15,11 @@
 }
 
 .testimonial__image-container{
-    width: 60%;
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
     box-shadow: 3px 3px 5px 3px rgb(0, 0, 0, 0.3);
+    /*position: relative;*/
 }
 
 .testimonial__image{
