@@ -11,9 +11,19 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet"
+          href="../../Documents/Programming/CSS/Udemy/Section 9/css-and-js-01.01-adding-a-modal-html-and-css-code/main.css">
+    <script src="shared.js" defer></script>
 </head>
 <body>
 <div class="backdrop"></div>
+<div class="modal">
+    <h1 class="modal__title">Do you want to continue?</h1>
+    <div class="modal__actions">
+        <a href="start-hosting/index.html" class="modal__action">Yes!</a>
+        <button class="modal__action modal__action--negative" type="button">No!</button>
+    </div>
+</div>
 <header class="main-header">
     <div>
         <a href="index.html" class="main-header__brand">

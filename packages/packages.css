@@ -4,12 +4,13 @@ main {
 
 
 .background{
+    display: none;
     background: url("../images/plans-background.jpg") center/cover;
     filter: grayscale(40%);
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: -100;
+    z-index: 100;
 }
 
 /*.main-section{*/
